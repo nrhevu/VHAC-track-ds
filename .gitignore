@@ -163,4 +163,5 @@ cython_debug/
 
 runs/
 data/
-
+weight-model/
+submission
