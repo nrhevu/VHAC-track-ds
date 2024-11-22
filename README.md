@@ -140,5 +140,10 @@ To retrain SELFRec models, which includes XSimGCL, LightGCN, DirectAU, SimGCL, c
 To retrain ALS, check `ALS-Training.ipynb`
 To retrain SAR, check `SAR-Training.ipynb`
 
+## Download weight and runs files
+Data download (here)[https://huggingface.co/datasets/Rhev124/VHAC-track-ds]
+Runs download (here)[https://huggingface.co/datasets/Rhev124/VHAC-track-ds-runs]
+Weight download (here)[https://huggingface.co/datasets/Rhev124/VHAC-track-ds-weight-model]
+
 ## Reproduce Result
 To reproduce result: Check `Pipeline-Road-to-The-Championship.ipynb`. Run the Ensemble Final session to reproduce final submission.
