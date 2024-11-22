@@ -29,6 +29,11 @@ Make sure to download all file and map to this project structure to reproduce th
 │   ├── RecVAE-Get-Embedding.ipynb
 │   └── UserCluster.ipynb
 ├── recvae
+│   ├── __pycache__
+│   │   ├── model.cpython-311.pyc
+│   │   ├── model.cpython-312.pyc
+│   │   ├── utils.cpython-311.pyc
+│   │   └── utils.cpython-312.pyc
 │   ├── infer.py
 │   ├── latent.py
 │   ├── model.py
@@ -56,7 +61,23 @@ Make sure to download all file and map to this project structure to reproduce th
 │   │   ├── model.pkl
 │   │   ├── predict.csv
 │   │   ├── predict_lightgcn_final_data.zip
+│   │   ├── user_clusters.csv
 │   │   └── user_embedding.pkl
+│   ├── RecVAE
+│   │   ├── data.csv
+│   │   ├── model.pt
+│   │   ├── predict.csv
+│   │   ├── predict_RecVAE_SUPER_SEIYAN_GEAR5_BANKAI.zip
+│   │   ├── predict_h100_no_full.zip
+│   │   ├── result_csp.pkl
+│   │   ├── test_te.csv
+│   │   ├── test_tr.csv
+│   │   ├── testset_recvae.csv
+│   │   ├── train.csv
+│   │   ├── unique_sid.txt
+│   │   ├── unique_uid.txt
+│   │   ├── validation_te.csv
+│   │   └── validation_tr.csv
 │   ├── SAR
 │   │   └── model.pkl
 │   ├── SimGCL
@@ -65,6 +86,10 @@ Make sure to download all file and map to this project structure to reproduce th
 │   │   ├── predict.csv
 │   │   ├── predict_simgcl_final_data.zip
 │   │   └── user_embedding.pkl
+│   ├── XSimGCL
+│   │   ├── item_embedding.pickle
+│   │   ├── model.pkl
+│   │   └── user_embedding.pickle
 │   ├── co-visitation-matrix
 │   │   ├── buy_order_denoise.csv
 │   │   ├── buy_order_full.csv
@@ -96,6 +121,7 @@ Make sure to download all file and map to this project structure to reproduce th
 │   │   ├── predict_XSim_standard_05772.csv
 │   │   ├── predict_ensemble_8file.csv
 │   │   └── predict_full_rerank.csv
+│   ├── private-test-attempt-final
 │   └── reranking
 │       ├── temp_csv
 │       ├── input.csv
@@ -104,7 +130,6 @@ Make sure to download all file and map to this project structure to reproduce th
 │       ├── output_submit.csv
 │       └── predict.csv
 ├── submission
-│   └── predict_ensemble_7file.csv
 ├── weight-model
 │   ├── emb_item_XSim128.pickle
 │   ├── emb_item_XSim_denoise.pickle
@@ -127,11 +152,11 @@ Make sure to download all file and map to this project structure to reproduce th
 ├── Co-Visitation-Matrix.ipynb
 ├── Pipeline-Road-to-The-Championship.ipynb
 ├── README.md
-├── RecVAE-Create-Train-Data.ipynb
+├── RecVAE-Training.ipynb
 ├── Rerank.ipynb
 ├── SAR-Training.ipynb
 ├── SELFRec-Training.ipynb
-└── requirements.txt
+└── environment.yml
 ```
 
 ## Retrain model
