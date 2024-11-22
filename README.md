@@ -11,6 +11,8 @@ Make sure to download all file and map to this project structure to reproduce th
 ```shell
 .
 ├── SELFRec
+├── experimentals
+├── recvae
 ├── data
 │   ├── data_final.csv
 │   ├── public_testset.csv
@@ -20,25 +22,6 @@ Make sure to download all file and map to this project structure to reproduce th
 │   ├── train.csv
 │   ├── train.txt
 │   └── training_set.csv
-├── experimentals
-│   ├── Bert4rec.ipynb
-│   ├── Conflict_item.ipynb
-│   ├── Error Analysis.ipynb
-│   ├── Gridsearch.ipynb
-│   ├── Multiple View Data.ipynb
-│   ├── RecVAE-Get-Embedding.ipynb
-│   └── UserCluster.ipynb
-├── recvae
-│   ├── __pycache__
-│   │   ├── model.cpython-311.pyc
-│   │   ├── model.cpython-312.pyc
-│   │   ├── utils.cpython-311.pyc
-│   │   └── utils.cpython-312.pyc
-│   ├── infer.py
-│   ├── latent.py
-│   ├── model.py
-│   ├── run.py
-│   └── utils.py
 ├── runs
 │   ├── ALS
 │   │   ├── csr_train.pkl
