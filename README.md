@@ -67,8 +67,6 @@ Make sure to download all file and map to this project structure to reproduce th
 │   │   ├── data.csv
 │   │   ├── model.pt
 │   │   ├── predict.csv
-│   │   ├── predict_RecVAE_SUPER_SEIYAN_GEAR5_BANKAI.zip
-│   │   ├── predict_h100_no_full.zip
 │   │   ├── result_csp.pkl
 │   │   ├── test_te.csv
 │   │   ├── test_tr.csv
@@ -177,3 +175,6 @@ Weight download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-wei
 
 ## Reproduce Result
 To reproduce result: Check `Pipeline-Road-to-The-Championship.ipynb`. Run the Ensemble Final session to reproduce final submission.
+
+## More
+Our experiments are stored in `experimentals` path. Check out if you are interested.
