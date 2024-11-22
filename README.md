@@ -141,13 +141,13 @@ Make sure to download all file and map to this project structure to reproduce th
 ```
 
 ## Retrain model
-To retrain RecVAE, check `RecVAE-Training.ipynb`
+To retrain RecVAE, check the notebook `RecVAE-Training.ipynb`
 
-To retrain SELFRec models, which includes XSimGCL, LightGCN, DirectAU, SimGCL, check `SELFRec-Training.iypnb`
+To retrain SELFRec models, which includes XSimGCL, LightGCN, DirectAU, SimGCL, check the notebook `SELFRec-Training.iypnb`
 
-To retrain ALS, check `ALS-Training.ipynb`
+To retrain ALS, check the notebook `ALS-Training.ipynb`
 
-To retrain SAR, check `SAR-Training.ipynb`
+To retrain SAR, check the notebook `SAR-Training.ipynb`
 
 ## Download weight and runs files
 data download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds)
@@ -156,8 +156,8 @@ runs download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-runs)
 
 weight-model download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-weight-model)
 
-## Reproduce Result
-To reproduce result: Check `Pipeline-Road-to-The-Championship.ipynb`. Run the Ensemble Final session to reproduce final submission.
+## Reproduce The Result
+To reproduce the result: Check the notebook `Pipeline-Road-to-The-Championship.ipynb`. Run the Ensemble Final session to reproduce final submission.
 
 ## More
 Our experiments are stored in `experimentals` path. Check out if you are interested.
