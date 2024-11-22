@@ -136,8 +136,11 @@ Make sure to download all file and map to this project structure to reproduce th
 
 ## Retrain model
 To retrain RecVAE, check `RecVAE-Training.ipynb`
+
 To retrain SELFRec models, which includes XSimGCL, LightGCN, DirectAU, SimGCL, check `SELFRec-Training.iypnb`
+
 To retrain ALS, check `ALS-Training.ipynb`
+
 To retrain SAR, check `SAR-Training.ipynb`
 
 ## Download weight and runs files
