@@ -150,11 +150,11 @@ To retrain ALS, check the notebook `ALS-Training.ipynb`
 To retrain SAR, check the notebook `SAR-Training.ipynb`
 
 ## Download weight and runs files
-data download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds)
+`data\` can be downloaded [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds)
 
-runs download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-runs)
+`runs\` can be downloaded [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-runs)
 
-weight-model download [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-weight-model)
+`weight-model\` can be downloaded [here](https://huggingface.co/datasets/Rhev124/VHAC-track-ds-weight-model)
 
 ## Reproduce The Result
 To reproduce the result: Check the notebook `Pipeline-Road-to-The-Championship.ipynb`. Run the Ensemble Final session to reproduce final submission.
