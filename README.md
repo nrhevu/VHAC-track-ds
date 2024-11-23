@@ -6,7 +6,8 @@ Create environments with conda: `conda env create -f environment.yml`
 
 ## Project Structure
 
-Make sure to download all file and map to this project structure to reproduce the result
+Make sure to download all file and map to this project structure to reproduce the result. 
+The SELFRec source code can be found in this repo: https://github.com/Coder-Yu/SELFRec/
 
 ```shell
 .
